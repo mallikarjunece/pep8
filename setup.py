@@ -3,6 +3,7 @@ from __future__ import with_statement
 from setuptools import setup
 
 
+
 def get_version():
     with open('pep8.py') as f:
         for line in f:
